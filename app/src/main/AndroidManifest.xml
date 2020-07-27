@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="jp.techacademy.date.yuuya.qa_app2.QuestionDetailActivity"></activity>
+        <activity android:name="jp.techacademy.date.yuuya.qa_app2.AnswerSendActivity"></activity>
+        <activity android:name="jp.techacademy.date.yuuya.qa_app2.QuestionDetailActivity" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
@@ -24,8 +25,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".LoginActivity" />
-        <activity android:name=".SettingActivity"></activity>
-        <activity android:name=".QuestionSendActivity"></activity>
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".QuestionSendActivity" />
+        <activity android:name=".QuestionDetailActivity" />
+        <activity android:name=".AnswerSendActivity"></activity>
     </application>
 
 </manifest>
